@@ -1,6 +1,6 @@
 
-| [Java](https://github.com/davidcarboni/cryptolite-java "Java implementation")                                                      | [Python](https://github.com/davidcarboni/cryptolite-python "Python implementation")                                                  | [Go](https://github.com/davidcarboni/cryptolite "Go implementation")                                                      |
-| ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| [Java](https://github.com/davidcarboni/cryptolite-java "Java implementation")                                                               | [Python](https://github.com/davidcarboni/cryptolite-python "Python implementation")                                                             | [Go](https://github.com/davidcarboni/cryptolite "Go implementation")                                                              |                                                      
+| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | [![Build Status](https://travis-ci.org/davidcarboni/cryptolite-java.svg?branch=master)](https://travis-ci.org/davidcarboni/cryptolite-java) | [![Build Status](https://travis-ci.org/davidcarboni/cryptolite-python.svg?branch=master)](https://travis-ci.org/davidcarboni/cryptolite-python) | [![Build Status](https://travis-ci.org/davidcarboni/cryptolite.svg?branch=master)](https://travis-ci.org/davidcarboni/cryptolite) |
 
 
@@ -51,7 +51,7 @@ Much of the inspiration for the algorithms, modes and parameters comes from http
 
 This library is released under the MIT license, like many other libraries, which means you are free to use it in commercial products.
 
-If you have any questions, feel free to contact me via @davidcarboni or find me on GitHub at https://github.com/davidcarboni.
+If you have any questions, feel free to contact me via Twitter [@davidcarboni](https://twitter.com/davidcarboni) or find me on Medium as [davidcarboni](https://medium.com/@davidcarboni).
 
 David Carboni
 
