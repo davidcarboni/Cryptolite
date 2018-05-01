@@ -1,7 +1,7 @@
 
 | [Java](https://github.com/davidcarboni/cryptolite-java "Java implementation")                                                      | [Python](https://github.com/davidcarboni/cryptolite-python "Python implementation")                                                  | [Go](https://github.com/davidcarboni/cryptolite-go "Go implementation")                                                      |
 | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| [![Build Status](https://travis-ci.org/davidcarboni/cryptolite-java.svg)](https://travis-ci.org/davidcarboni/cryptolite-java) | [![Build Status](https://travis-ci.org/davidcarboni/cryptolite-python.svg)](https://travis-ci.org/davidcarboni/cryptolite-python) | [![Build Status](https://travis-ci.org/davidcarboni/cryptolite-go.svg)](https://travis-ci.org/davidcarboni/cryptolite-go) |
+| [![Build Status](https://travis-ci.org/davidcarboni/cryptolite-java.svg?branch=master)](https://travis-ci.org/davidcarboni/cryptolite-java) | [![Build Status](https://travis-ci.org/davidcarboni/cryptolite-python.svg?branch=master)](https://travis-ci.org/davidcarboni/cryptolite-python) | [![Build Status](https://travis-ci.org/davidcarboni/cryptolite.svg?branch=master)](https://travis-ci.org/davidcarboni/cryptolite) |
 
 
 Cryptolite
@@ -10,9 +10,11 @@ Cryptolite
 
 ### What is it?
 
-Cryptolite is a wrapper for the Java Cryptography Extension, providing simple, "right" cryptography and bypassing all the options. It's "lite" as in "easy to use", not as in "less powerful". It's similar to Jasypt, (http://www.jasypt.org/) but provides even less options - if any. This means Cryptolite can do serious cryptography in just half a dozen classes and a tiny number of API methods. 
+Cryptolite is a wrapper for standard crypto libraries, providing a simpler user experience. The goal is to make "right" cryptography straightforward by taking away the options, making it harder to get cryptography wrong. It's "lite" as in "easy to use", not as in "less powerful". This means Cryptolite does serious cryptography with a handful of API methods and goes to some length to help you understand how to use the basic building blocks - keys, key pairs, encryption, digital signatures, key exchange and key wrapping, and a couple of useful extras including password generation and hashing.
 
-Cryptolite doesn't do any cryptography itself. Instead it relies on the well known open source BouncyCastle JCE provider to do the heavy lifting. The API is focused explicitly on providing the things developers need, especially webapp developers - hashing passwords, generating random IDs, encrypting Strings and Files, digital signatures and key exchange. No options means under the covers it just does what's most appropriate - and if necessary pragmatic - enabling you to use cryptography without having to understand it in depth. For example, did you know that using AES in ECB mode is a bad idea? Neither did I when I started, so I wrote Cryptolite to take care of it. (http://www.codinghorror.com/blog/2009/05/why-isnt-my-encryption-encrypting.html)
+Cryptolite doesn't do any cryptography itself. Instead it relies on trusted implementations to do the heavy lifting. The API is focused on providing the things you're likely to need as a developer, especially for web apps and microservices - hashing passwords, generating random IDs, encrypting and digitally signing Strings and Files and managing keys safely.
+
+No options means under the covers it just does what's most appropriate - and if necessary pragmatic - enabling you to use cryptography without having to research it in depth. For example, did you know that using AES in ECB mode is a bad idea? Neither did I when I started. I wrote Cryptolite to take care of it. (http://www.codinghorror.com/blog/2009/05/why-isnt-my-encryption-encrypting.html)
 
 
 ### See it in action
