@@ -53,5 +53,3 @@ This library is released under the MIT license, like many other libraries, which
 
 If you have any questions, feel free to contact me via Twitter [@davidcarboni](https://twitter.com/davidcarboni) or find me on Medium as [davidcarboni](https://medium.com/@davidcarboni).
 
-David Carboni
-
